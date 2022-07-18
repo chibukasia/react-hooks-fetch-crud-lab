@@ -5,13 +5,15 @@ function QuestionItem({ question, onDeleted, onUpdated }) {
 
   // delete question
   function deleteQuestion(){
+    //console.log(id)
+    onDeleted(question)
     fetch(`http://localhost:4000/questions/${id}`, {
       method: 'DELETE'
     })
     .then(res=>res.json())
-    .then(deletedData=>{
-      onDeleted(deletedData)
-      console.log(onDeleted)
+    .then(()=>{
+      onDeleted(id)
+      console.log(id)
     })
   }
   

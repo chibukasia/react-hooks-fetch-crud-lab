@@ -65,39 +65,6 @@
         "controlled"
       ],
       "correctIndex": 1
-    },
-    {
-      "prompt": "Where is home",
-      "answers": [
-        "Nai",
-        "Naks",
-        "Kach",
-        "Kis"
-      ],
-      "conrrectIndex": 0,
-      "id": 7
-    },
-    {
-      "prompt": "Where is home",
-      "answers": [
-        "Nai",
-        "Naks",
-        "Kach",
-        "Kis"
-      ],
-      "conrrectIndex": 0,
-      "id": 8
-    },
-    {
-      "prompt": "Where is home",
-      "answers": [
-        "Nai",
-        "Naks",
-        "Kach",
-        "Kis"
-      ],
-      "conrrectIndex": 0,
-      "id": 9
     }
   ]
 }

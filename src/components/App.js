@@ -14,10 +14,13 @@ function App() {
     setQuestions(newQuestions)
   }
 
-  function handleDeleteQuestion(deletedQuestion){
-    const undeleteQuestions = questions.filter((question)=>question.id !== deletedQuestion.id)
-    console.log(undeleteQuestions)
+  function handleDeleteQuestion(id){
+    const undeleteQuestions = questions.filter((question) =>{
+      return question.id !== id
+    })
+    //console.log(undeleteQuestions)
     setQuestions(undeleteQuestions)
+    //console.log('This is what was delete', undeleteQuestions)
   }
 
   function handleQuestionUpdate(updateItem){
