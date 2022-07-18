@@ -25,7 +25,7 @@ function App() {
       if (question.id===updateItem.id){
           return updateItem
       } else{
-        return questions
+        return question
       }
     } 
     )

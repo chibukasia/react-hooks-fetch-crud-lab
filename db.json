@@ -9,7 +9,7 @@
         "key",
         "prop"
       ],
-      "correctIndex": "2"
+      "correctIndex": "1"
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
         "props",
         "state"
       ],
-      "correctIndex": "1"
+      "correctIndex": "2"
     },
     {
       "id": 3,
@@ -98,17 +98,6 @@
       ],
       "conrrectIndex": 0,
       "id": 9
-    },
-    {
-      "prompt": "Where is home",
-      "answers": [
-        "Nai",
-        "Naks",
-        "Kach",
-        "Kis"
-      ],
-      "conrrectIndex": 0,
-      "id": 10
     }
   ]
 }

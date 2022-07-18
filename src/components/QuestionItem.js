@@ -28,7 +28,7 @@ function QuestionItem({ question, onDeleted, onUpdated }) {
     })
     .then(res=>res.json())
     .then(updatedQuestion=>{
-      //onUpdated(updatedQuestion)
+      onUpdated(updatedQuestion)
     })
   }
 
